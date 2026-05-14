@@ -1,7 +1,7 @@
-import Hero from '@/components/Landing/Hero'
-import Navbar from '@/components/Landing/Navbar'
-import StatsCards from '@/components/Landing/StatsCards'
-import AngulMap from '@/components/map/AngulMap'
+import Hero from "@/components/Landing/Hero";
+import Navbar from "@/components/Landing/Navbar";
+import StatsCards from "@/components/Landing/StatsCards";
+import MapWrapper from "@/components/map/MapWrapper";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <StatsCards />
-      <AngulMap />
+      <MapWrapper />
     </div>
-  )
+  );
 }
