@@ -1,7 +1,222 @@
-Signal DPG is a Digital Public Good that enables ecosystem-wide labor market signaling.
+# knowledge.txt
 
-Aggregator DPG coordinates employment data from multiple stakeholders.
+Blue Dot Economy DPGs
+Configurable Digital Public Infrastructure for Local Discovery
 
-Ecosystem Facilitator DPG enables governance coordination between government, employers, and institutions.
+The Problem: Local Discovery Failure
 
-Blue Dot Economy solves local discovery failure by connecting talent clusters with employment opportunities using geo-aware intelligence.
+Many of India's progressive districts are not suffering from a resource failure—shortage of jobs, skills, or services. They are suffering from a local discovery failure: the livelihoods, talent, schemes, and services exist, in proximity, but cannot discover each other.
+
+The Paradox of Proximity
+
+Local supply and demand sit kilometers apart—sometimes meters apart—and function as though they belong to entirely separate economies.
+
+Examples:
+
+* An ITI graduate goes unplaced while a nearby SMB needs that exact trade.
+* A qualified woman wants to return to work while a nearby business needs an accountant.
+* A person with locomotor disability needs assistive devices while an NGO nearby helps people apply for schemes.
+* A tourist misses authentic experiences while local tour operators remain undiscovered.
+* A business needs food services while nearby catering units seek customers.
+* A student travels long distances for coaching while a qualified teacher lives nearby.
+
+Close in distance. Invisible in discovery.
+
+Why This Happens
+
+District economies are digitally dark. Most livelihoods, services, schemes, and opportunities are not digitally mapped. Information travels through posters, word-of-mouth, walls, and informal networks.
+
+National platforms are not designed for the vernacular, fragmented, hyperlocal realities of district economies.
+
+The Cost
+
+* SMBs contribute nearly 70% of employment but only around 30% of GDP.
+* Placement rates remain below 50%.
+* Scheme utilization remains below 70%.
+* Discovery failure prevents nearby demand and supply from connecting.
+
+Discovery Failure Impacts Vulnerable Populations Most
+
+Those most affected include:
+
+* Women re-entering the workforce
+* Persons with disabilities
+* First-generation graduates
+* Daily wage workers
+
+For them, discovery failure becomes the primary barrier to economic participation.
+
+The Proof: Ghaziabad and Dharwad Pilots
+
+Key Outcomes:
+
+* Nearly 10,000 local job openings surfaced.
+* Voice AI reduced discovery costs from ₹500 to ₹10.
+* Discovery time reduced from over two weeks to less than one day.
+* Placement rates improved from below 10% to above 50%.
+* Local employment reduced long-distance migration.
+
+The pilots did not create new demand and supply. They revealed what already existed locally.
+
+The Solution: Three Configurable DPGs
+
+Blue Dot Economy DPGs are configurable open-source infrastructure components enabling local discovery and coordination.
+
+The Three DPGs:
+
+1. Signal DPG
+
+* Enables individuals to register, create profiles, discover opportunities, and track interactions.
+* Users include job seekers, employers, service providers, beneficiaries, tourists, and homestay owners.
+
+Core capabilities:
+
+* Custom profile creation
+* Searchable registry
+* Connection tracking
+* Credential verification
+* OTP authentication
+* Geographic map discovery
+
+2. Aggregator DPG
+
+* Enables intermediary organizations to onboard participants at scale and track outcomes.
+* Used by NGOs, training institutes, tourism offices, and placement agencies.
+
+Core capabilities:
+
+* Bulk onboarding
+* Participant tracking
+* Profile completion monitoring
+* Reporting dashboards
+
+3. Ecosystem Facilitator DPG
+
+* Provides ecosystem-wide visibility and coordination.
+* Used by district officials, state administrators, and mission directorates.
+
+Core capabilities:
+
+* Cross-network dashboards
+* Demand-supply analysis
+* Aggregator performance monitoring
+* Intervention coordination
+
+Shared Digital Infrastructure
+
+Blue Dot Economy DPGs function similarly to UPI for discovery and coordination.
+
+They provide shared digital rails enabling:
+
+* Discoverability
+* Matching
+* Verification
+* Coordination
+* Interoperability
+
+Schema-Driven Configuration
+
+Departments define their own schemas, workflows, participant types, and rules while using shared infrastructure.
+
+Employment schema examples:
+
+* Job seekers
+* Employers
+* Training providers
+
+Tourism schema examples:
+
+* Homestay owners
+* Tourists
+* Service providers
+
+Welfare schema examples:
+
+* Citizens
+* Scheme providers
+* Field officers
+
+Interoperability Through Network Contracts
+
+DPG instances can discover and interact across districts and departments using shared network contracts.
+
+Examples:
+
+* Training institutes can connect job seekers with employers.
+* Aggregators across districts can coordinate.
+* State authorities can monitor district ecosystems.
+
+Joining an Existing Network
+
+Organizations deploy only the DPGs relevant to their role.
+
+Examples:
+
+* Service providers deploy Signal DPG.
+* NGOs deploy Signal + Aggregator DPG.
+* State ecosystem creators deploy all three DPGs.
+
+Implementation Roadmap
+
+Phase 1:
+
+* Define schemas
+* Configure workflows
+* Deploy DPG instances
+* Configure network contracts
+
+Phase 2:
+
+* Integrate authentication
+* Onboard aggregators
+* Onboard participants
+* Validate workflows
+* Scale geographically
+
+Metrics
+
+Signal DPG Metrics:
+
+* Participants registered
+* Active users
+* Connections made
+* Outcomes achieved
+
+Aggregator DPG Metrics:
+
+* Aggregators onboarded
+* Bulk uploads completed
+* Profile completion rate
+* Follow-up actions
+
+Ecosystem Facilitator Metrics:
+
+* Ecosystem coverage
+* Demand-supply balance
+* Intervention effectiveness
+* Cross-network outcomes
+
+What This Means
+
+Blue Dot Economy DPGs create shared digital discovery infrastructure enabling districts to discover and connect what already exists locally.
+
+The infrastructure supports:
+
+* Employment
+* Tourism
+* Welfare
+* Education
+* Agriculture
+* Service ecosystems
+
+The system enables structured visibility, verified connections, interoperability, and ecosystem coordination.
+
+Key Principle:
+Deploy only what you need.
+
+Next Steps:
+
+* Identify pilot department
+* Define participant schemas
+* Plan pilot geography
+* Review technical integration requirements
