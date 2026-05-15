@@ -1,0 +1,7 @@
+Signal DPG is a Digital Public Good that enables ecosystem-wide labor market signaling.
+
+Aggregator DPG coordinates employment data from multiple stakeholders.
+
+Ecosystem Facilitator DPG enables governance coordination between government, employers, and institutions.
+
+Blue Dot Economy solves local discovery failure by connecting talent clusters with employment opportunities using geo-aware intelligence.

@@ -1,41 +1,63 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import requests
+import ollama
 
 app = Flask(__name__)
+
 CORS(app)
 
-OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "blue-dot-ai"
+# LOAD KNOWLEDGE BASE
+with open("knowledge.txt", "r", encoding="utf-8") as f:
+    knowledge_base = f.read()
 
-
-@app.route("/chat", methods=["POST"])
+@app.route('/chat', methods=['POST'])
 def chat():
-    data = request.get_json()
-
-    user_message = data.get("message")
 
     try:
-        response = requests.post(
-            OLLAMA_URL,
-            json={
-                "model": MODEL_NAME,
-                "prompt": user_message,
-                "stream": False
-            }
+
+        data = request.get_json()
+
+        user_message = data.get("message")
+
+        # STRONG SYSTEM PROMPT
+        prompt = f"""
+You are Blue Dot Economy AI Assistant.
+
+You MUST answer ONLY using the provided knowledge.
+
+If answer is not available in knowledge,
+say:
+"I don't have information about that in the Blue Dot knowledge base."
+
+KNOWLEDGE BASE:
+{knowledge_base}
+
+USER QUESTION:
+{user_message}
+"""
+
+        response = ollama.chat(
+            model='bluedot-ai',
+            messages=[
+                {
+                    'role': 'user',
+                    'content': prompt
+                }
+            ]
         )
 
-        result = response.json()
+        ai_reply = response['message']['content']
 
         return jsonify({
-            "reply": result["response"]
+            "response": ai_reply
         })
 
     except Exception as e:
+
         return jsonify({
-            "reply": f"Backend Error: {str(e)}"
-        })
+            "response": str(e)
+        }), 500
 
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)

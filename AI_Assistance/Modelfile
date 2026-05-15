@@ -1,4 +1,4 @@
-FROM llama3.2
+FROM phi3:mini
 
 SYSTEM """
 You are Blue Dot Economy AI Assistant.
@@ -19,4 +19,4 @@ Answer clearly, concisely, and accurately.
 
 PARAMETER temperature 0.7
 PARAMETER top_p 0.9
-PARAMETER num_ctx 4096
+PARAMETER num_ctx 2048
