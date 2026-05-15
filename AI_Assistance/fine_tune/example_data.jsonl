@@ -1,0 +1,162 @@
+[
+  {
+    "prompt": "What is the core problem Blue Dot Economy DPGs aim to solve?",
+    "completion": "Blue Dot Economy DPGs aim to solve local discovery failure, where nearby jobs, services, schemes, talent, and opportunities exist but cannot discover each other due to lack of digital visibility."
+  },
+  {
+    "prompt": "Explain the paradox of proximity described in the Blue Dot Economy document.",
+    "completion": "The paradox of proximity refers to situations where supply and demand exist very close to each other geographically but remain disconnected because there is no digital infrastructure enabling discovery."
+  },
+  {
+    "prompt": "Why are districts described as digitally dark?",
+    "completion": "Districts are described as digitally dark because most livelihoods, services, schemes, and opportunities are not digitally mapped and are instead shared through posters, word-of-mouth, and informal networks."
+  },
+  {
+    "prompt": "How do Blue Dot Economy DPGs compare to UPI?",
+    "completion": "Blue Dot Economy DPGs function as shared digital rails for discovery and connection, similar to how UPI functions as shared digital rails for payments."
+  },
+  {
+    "prompt": "What are the three Blue Dot Economy DPGs?",
+    "completion": "The three Blue Dot Economy DPGs are Signal DPG, Aggregator DPG, and Ecosystem Facilitator DPG."
+  },
+  {
+    "prompt": "What does the Signal DPG do?",
+    "completion": "The Signal DPG enables individuals to register, create profiles, discover opportunities or services, and track interactions."
+  },
+  {
+    "prompt": "Who are typical users of the Signal DPG?",
+    "completion": "Typical users include job seekers, employers, service providers, beneficiaries, tourists, and homestay owners."
+  },
+  {
+    "prompt": "What is the purpose of the Aggregator DPG?",
+    "completion": "The Aggregator DPG enables intermediary organizations to onboard participants at scale, track activity, and report outcomes."
+  },
+  {
+    "prompt": "Which organizations use the Aggregator DPG?",
+    "completion": "Organizations such as NGOs, training institutes, placement agencies, district tourism offices, and industry associations use the Aggregator DPG."
+  },
+  {
+    "prompt": "What does the Ecosystem Facilitator DPG provide?",
+    "completion": "The Ecosystem Facilitator DPG provides system-wide visibility, identifies gaps, coordinates interventions, and measures ecosystem outcomes."
+  },
+  {
+    "prompt": "What are the core capabilities of the Signal DPG?",
+    "completion": "Core capabilities include customizable profile creation, searchable registry, connection tracking, credential verification, OTP authentication, and geographic map-based discovery."
+  },
+  {
+    "prompt": "What is schema-driven configuration in Blue Dot Economy DPGs?",
+    "completion": "Schema-driven configuration allows departments to define their own participant types, workflows, rules, and data structures while using common DPG infrastructure."
+  },
+  {
+    "prompt": "Give an example of participant types in the Employment department schema.",
+    "completion": "Participant types in the Employment schema include job seekers, employers, and training providers."
+  },
+  {
+    "prompt": "What kind of schema elements exist in the Tourism department?",
+    "completion": "Tourism schema elements include property details, amenities, booking requests, services offered, and ratings."
+  },
+  {
+    "prompt": "How does the Welfare department use schemas?",
+    "completion": "The Welfare department uses schemas for demographics, eligibility criteria, scheme benefits, and applications."
+  },
+  {
+    "prompt": "What problem do Blue Dot Economy DPGs solve for SMBs?",
+    "completion": "They help SMBs discover nearby talent, customers, and services more efficiently through shared digital discovery infrastructure."
+  },
+  {
+    "prompt": "What was one major outcome of the Ghaziabad and Dharwad pilots?",
+    "completion": "The pilots surfaced nearly 10,000 local job openings from less than 10% of SMBs."
+  },
+  {
+    "prompt": "How did Voice AI improve discovery costs in the pilots?",
+    "completion": "Voice AI reduced discovery costs from approximately ₹500 per survey to around ₹10 per interaction."
+  },
+  {
+    "prompt": "How quickly could opportunities be discovered after implementing the pilots?",
+    "completion": "Discovery time reduced from more than two weeks to less than one day."
+  },
+  {
+    "prompt": "What happened to placement rates in the pilots?",
+    "completion": "Placement rates improved from below 10 percent to above 50 percent through targeted placement drives."
+  },
+  {
+    "prompt": "What is the key principle behind deployment of the DPGs?",
+    "completion": "Organizations deploy only the DPGs relevant to their role, making the system modular and flexible."
+  },
+  {
+    "prompt": "What DPGs would an NGO managing beneficiaries typically deploy?",
+    "completion": "An NGO managing beneficiaries would typically deploy the Signal DPG and Aggregator DPG."
+  },
+  {
+    "prompt": "What DPGs are required to start a completely new network?",
+    "completion": "Starting a new network requires all three DPGs: Signal DPG, Aggregator DPG, and Ecosystem Facilitator DPG."
+  },
+  {
+    "prompt": "What is interoperability through network contracts?",
+    "completion": "Interoperability through network contracts allows independently configured DPG instances to discover and interact with each other across networks."
+  },
+  {
+    "prompt": "How can a training institute participate in an employment network?",
+    "completion": "A training institute can deploy the Signal DPG with service provider schemas so job seekers can discover its courses and services."
+  },
+  {
+    "prompt": "What are the implementation phases for Blue Dot Economy DPGs?",
+    "completion": "The implementation phases are Schema Definition & Configuration, followed by Pilot & Scale."
+  },
+  {
+    "prompt": "What activities happen during Phase 1 implementation?",
+    "completion": "Phase 1 includes defining schemas, designing workflows, specifying verification requirements, configuring network contracts, and deploying DPG instances."
+  },
+  {
+    "prompt": "What activities happen during Phase 2 implementation?",
+    "completion": "Phase 2 includes authentication integration, onboarding aggregators, onboarding participants, validating workflows, and expanding geographically."
+  },
+  {
+    "prompt": "What metrics can be tracked in the Signal DPG?",
+    "completion": "Metrics include total participants registered, active users, connections made, and outcomes achieved."
+  },
+  {
+    "prompt": "What metrics can be tracked in the Aggregator DPG?",
+    "completion": "Metrics include aggregators onboarded, bulk uploads completed, profile completion rates, and follow-up actions taken."
+  },
+  {
+    "prompt": "What metrics can be tracked in the Ecosystem Facilitator DPG?",
+    "completion": "Metrics include ecosystem coverage, demand-supply balance, intervention effectiveness, and cross-network outcomes."
+  },
+  {
+    "prompt": "Why does discovery failure impact vulnerable populations the most?",
+    "completion": "Vulnerable populations rely less on personal networks and therefore face greater barriers when nearby opportunities and services remain undiscoverable."
+  },
+  {
+    "prompt": "What role does the Ecosystem Facilitator DPG play at the district level?",
+    "completion": "At the district level, it provides visibility into registrations, placements, gap areas, and aggregator performance."
+  },
+  {
+    "prompt": "How can state-level authorities use the Ecosystem Facilitator DPG?",
+    "completion": "State-level authorities can monitor cross-district implementations, compare district performance, and coordinate policy interventions."
+  },
+  {
+    "prompt": "What is one major technical feature of the Signal DPG?",
+    "completion": "One major technical feature is OTP-based authentication combined with credential-backed verification."
+  },
+  {
+    "prompt": "What is the purpose of map-based discovery in the Signal DPG?",
+    "completion": "Map-based discovery helps users find nearby opportunities, services, and participants geographically."
+  },
+  {
+    "prompt": "What does the document mean by 'shared digital discovery infrastructure'?",
+    "completion": "It refers to interoperable open digital systems that make local demand and supply visible and discoverable across stakeholders."
+  },
+  {
+    "prompt": "How do Blue Dot Economy DPGs support government departments?",
+    "completion": "They provide configurable infrastructure for discovery, matching, verification, onboarding, reporting, and ecosystem coordination."
+  },
+  {
+    "prompt": "What is the significance of configurable schemas in DPGs?",
+    "completion": "Configurable schemas allow each department to customize workflows and participant structures without rebuilding core infrastructure."
+  },
+  {
+    "prompt": "Why are Blue Dot Economy DPGs described as open-source infrastructure?",
+    "completion": "They are open-source because departments and organizations can deploy, customize, and extend the infrastructure independently."
+  }
+]
